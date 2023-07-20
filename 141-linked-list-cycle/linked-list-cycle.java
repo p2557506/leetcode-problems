@@ -23,8 +23,7 @@ public class Solution {
 
         //If next node is null cant be cycle
 
-        //Loop needed to check each node
-        //Runs forever if cycle
+        //Slow and fast node, if they meet, linked list has a a cycle
         
 
             while(slow != fast){
